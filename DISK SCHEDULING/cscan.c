@@ -15,7 +15,7 @@ void sort(){
 }
 
 void trackLeft(){
-    for(int i = index - 1; i >= 0; i--){
+    for(int i = index ; i > 0; i--){
         headMovement += abs(currentHead - arr[i]);
         currentHead = arr[i];
         printf(" -> %d", currentHead);
