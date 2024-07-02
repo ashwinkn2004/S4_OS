@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 int limit, refString[100], frames, frmArr[10], found, pageFault, count;
