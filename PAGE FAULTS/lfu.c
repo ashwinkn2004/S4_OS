@@ -56,5 +56,5 @@ void lfu(){
 
 void main(){
     read();
-    lru();
+    lfu();
 }
